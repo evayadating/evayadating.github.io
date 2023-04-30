@@ -1,0 +1,40 @@
+:root {
+  --primary: #b6895b;
+  --bg: #282828;
+}
+
+.jumbotron {
+  font-size: 80px;
+  padding: 50;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: black;
+}
+
+.content {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #123175;
+}
+
+.menu {
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+}
